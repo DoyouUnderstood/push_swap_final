@@ -6,7 +6,7 @@
 /*   By: alletond <alletond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 14:13:42 by alletond          #+#    #+#             */
-/*   Updated: 2023/11/02 15:09:11 by alletond         ###   ########.fr       */
+/*   Updated: 2023/11/06 17:09:48 by alletond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ int	has_duplicates(char **argv, int len, char *str)
 	i = 1;
 	while (i < len)
 	{
-		if (ft_strcmp(argv[i], str) == 0)
+		if (ft_strncmp(argv[i], str, 600) == 0)
 			return (1);
 		i++;
 	}

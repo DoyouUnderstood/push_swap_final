@@ -6,7 +6,7 @@
 /*   By: alletond <alletond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 14:54:40 by alletond          #+#    #+#             */
-/*   Updated: 2023/11/06 17:04:01 by alletond         ###   ########.fr       */
+/*   Updated: 2023/11/06 17:09:11 by alletond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define PUSH_SWAP_H
 
 # include "get_next_line.h"
-# include "libft/libft.h"
+# include "libft3/libft.h"
 # include <ctype.h>
 # include <limits.h>
 # include <stdbool.h>
